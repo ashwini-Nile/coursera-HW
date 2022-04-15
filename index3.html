@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Assignment Solution for Module 2</title>
+
+    <style>
+*{
+box-sizing: border-box;
+}
+body {
+margin:0;
+padding:0;
+}
+h1{
+text-align:center;
+font-size:1.75em;
+}
+#box1, #box2, #box3{
+background-color:#85929E;
+border:2px solid black;
+padding:5px;
+padding-top:0px;
+padding-bottom:0px;
+margin:10px;
+}
+
+p{
+background-color:;
+padding:0px;
+
+margin:15px;
+padding-left:2px;
+clear:both;
+}
+.row{
+width:100%;
+}
+span{
+height:27px;
+width:110px;
+text-align: center;
+padding-left:4px;
+display:block;
+float:right;
+border:1px solid black;
+font-size:1.25em;
+position:relative;
+top:-16px;
+right:-21px
+}
+
+span.clear {
+clear:both;
+}
+
+
+.beef{
+color:white;
+background-color:#C0392B;
+}
+.chik{
+background-color:pink;
+}
+.sushi{
+padding-top:0;
+background-color:#FAD7A0;
+}
+
+
+@media(min-width:992px) {
+#box1, #box2, #box3{
+float:left;
+}
+#box1{
+width:30%;
+}
+#box2{
+width:30%;
+}
+#box3{
+width:30%;
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+#box1, #box2, #box3{
+float:left;
+}
+#box1{
+width:45%;
+}
+#box2{
+width:45%;
+}
+#box3{
+width:92%;
+}
+}
+
+</style>
+
+</head>
+<body>
+<h1>Our Menu</h1>
+<div class="row">
+<div id="box1">
+    <div>
+<p class="main"> <span class="chik">Chicken</span><p class="para">Borders and Colors: Each section should have a background color set to some
+    color (of your choosing). Set the background color of each section title region to some unique color (of your choosing).
+    Make sure that the background color still allows the user to view the text in the section and section title regions.
+    Depending on the color you choose, you may want to change the color of the text so it can be easy to read.
+</p></p></div>
+</div>
+
+<div id="box2">
+
+<p class="main"> <span class="beef"> Beef</span> <p class="para"> Borders and Colors: Each section should have a background color set to some
+    color (of your choosing). Set the background color of each section title region to some unique color (of your choosing).
+    Make sure that the background color still allows the user to view the text in the section and section title regions.
+    Depending on the color you choose, you may want to change the color of the text so it can be easy to read.
+</p> </p>
+</div>
+
+<div id="box3">
+
+<p class="main"> <span class="sushi">Sushi</span> <p class="para"> Borders and Colors: Each section should have a background color set to some
+    color (of your choosing). Set the background color of each section title region to some unique color (of your choosing).
+    Make sure that the background color still allows the user to view the text in the section and section title regions.
+    Depending on the color you choose, you may want to change the color of the text so it can be easy to read.
+</p></p>
+</div>
+</div>
+</body>
+</html>
